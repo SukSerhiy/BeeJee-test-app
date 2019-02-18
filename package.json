@@ -2,7 +2,7 @@
   "name": "bee-jee-test-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SukSerhiy/beejee-test-app/",
+  "homepage": "https://sukserhiy.github.io/beejee-test-app/",
   "dependencies": {
     "element-react": "^1.4.32",
     "element-theme-default": "^1.4.13",
