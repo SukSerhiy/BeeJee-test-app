@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SukSerhiy/beejee-test-app/precache-manifest.9a8c4b523f920b7acdb9beadf53b20bc.js"
+  "/beejee-test-app/precache-manifest.7f3337f563564efccbba0f76f8c12a30.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/SukSerhiy/beejee-test-app/index.html", {
+workbox.routing.registerNavigationRoute("/beejee-test-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
