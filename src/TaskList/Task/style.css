@@ -1,0 +1,42 @@
+.task {
+  padding: 10px 0.5%;
+  margin-bottom: 10px;
+  background-color: #f3e5ab91;
+  border-radius: 3px;
+}
+
+.task .author {
+  color: #999966;
+  font-size: 0.9em;
+}
+
+.task .author > span {
+  display: block;
+}
+
+.task .edit-button {
+  height: 14px;
+  width: 14px;
+  background-image: url(../../img/edit.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  float: right;
+}
+
+.task .check {
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-image: url(../../img/check.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6px;
+  cursor: pointer;
+  float: left;
+}
+
+.task + .check + .author, .task + .check + .author + .text {
+  margin-left: 30px;
+}

@@ -1,0 +1,17 @@
+.sort-direction-switcher > div {
+  height: 25px;
+  width: 25px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.sort-direction-switcher .asc {
+  background-image: url(../../../img/sort_asc.png);
+}
+
+.sort-direction-switcher .desc {
+  background-image: url(../../../img/sort_desc.png);
+}

@@ -1,0 +1,18 @@
+header {
+  background-color: #55574e;
+  width: 97%;
+  padding: 12px 1.5% 12px;
+  float: left;
+  position: fixed;
+  z-index: 2000;
+}
+
+header h2 {
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+
+header button {
+  float: right;
+}

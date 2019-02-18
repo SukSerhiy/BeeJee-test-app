@@ -1,0 +1,9 @@
+.filter {
+  margin-bottom: 15px;
+  float: left;
+}
+
+.filter > div {
+  
+  float: left;
+}
