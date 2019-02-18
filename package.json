@@ -2,9 +2,11 @@
   "name": "bee-jee-test-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/SukSerhiy/beejee-test-app/",
   "dependencies": {
     "element-react": "^1.4.32",
     "element-theme-default": "^1.4.13",
+    "gh-pages": "^2.0.1",
     "immutable": "^4.0.0-rc.12",
     "js-md5": "^0.7.3",
     "prop-types": "^15.7.2",
@@ -23,6 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
